@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Kdam Thmor Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/kdamthmorpro/v4/EJRPQgAzVdcI-Qdvt34jzurnGD74hc4.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Noto Sans Glagolitic';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/notosansglagolitic/v17/1q2ZY4-BBFBst88SU_tOj4J-4yuNF_HI4HRN6gg.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Vina Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/vinasans/v6/m8JQjfZKf6-d2273MP7Dd5RA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    display: block;
+    border: solid 1px black;
+    font-family: sans-serif;
+}
+
+header {
+    color: rgb(215, 215, 215);
+    text-align: center;
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+body {
+    color: black;
+    display: inline-block;
+    background-color: rgb(211, 151, 62);
+}
+
+footer {
+    color: rgb(167, 155, 155);
+    background-image: url("https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_1280.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+div {
+    margin: 10px 20px;
+    display: inline-block;
+}
+
+a {
+    color: rgb(167, 155, 155);
+}
+
+a:link {
+    color: rgb(167, 155, 155);
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    background-color: black;
+}
+
+a:active {
+    color: darkred;
+}
+
+.flex {
+    margin: 2rem;
+    padding: 2rem;
+    border: solid 1px black;
+}
+
+.container {
+    margin: 2rem;
+    padding: 0 1rem;
+    display: block;
+    border: solid 2px black;
+    background-image: url("https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131_1280.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.fontlabel {
+    font-size: 20px;
+    text-decoration: 2px black underline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.noto {
+    font-family: "Noto Sans Glagolitic", sans-serif;
+}
+
+.kdam {
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.vina {
+    font-family: "Vina Sans", sans-serif;
+}
+
+.color, .hex, .rgb, .hsl {
+    border-radius: 10px;
+    text-align: center;
+    padding: 0 40px;
+    margin: 10px;
+}
+
+div .color {
+    background-color: DarkTurquoise;
+}
+
+div .hex {
+    background-color: #00CED1;
+}
+
+div .rgb {
+    background-color: rgb(0, 206, 209);
+}
+
+div .hsl {
+    background-color: hsl(181, 100%, 41%);
+}
+
+footer a {
+    display: block;
+}
