@@ -29,6 +29,7 @@ html {
     display: block;
     border: solid 1px black;
     font-family: sans-serif;
+    background-color: white;
 }
 
 header {
